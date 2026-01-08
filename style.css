@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* shared */
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn {
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #30B868;
+    transition: 0.5s;
+}
+
+.left {
+    width: 251px;
+    height: 52px;
+    padding: 12px 16px;
+
+}
+
+.btn-right {
+    width: 251px;
+    height: 52px;
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-right:hover {
+    background-color: #30B868;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/* header */
+.top-btn {
+    border-radius: 20px;
+    padding: 10px 12px;
+    color: #30B868;
+    gap: 16px;
+}
+
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 16px;
+    align-items: center;
+}
+
+#nav-container .img {
+    width: 139px;
+    height: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+
+#section .section-container {
+    background-image: url('assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 70px 120px 120px 134px;
+    align-items: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+.up-title {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    padding-top: 16px;
+}
+
+.down-title {
+    font-size: 72px;
+    font-weight: 700;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.section-title p {
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 16px;
+}
